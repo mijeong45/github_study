@@ -57,7 +57,7 @@ $ git status
 ## add
 
 ```bash
-$ git add {파일명}
+$ git add {파일명}.{확장자명}
 $ git add .  # 현재 디렉토리
 $ git add a.txt   # 특정 파일
 $ git add directory_name/ # 특정 폴더가 가진 모든 파일
@@ -68,9 +68,7 @@ $ git add directory_name/ # 특정 폴더가 가진 모든 파일
 
 
 
-#### 로컬저장소 -> `git init` -> working directory -> `add` -> staging area
-
-####  staging area 상태는 `status`로 확인 
+#### 실제 폴더 -> `git init` -> working directory -> `add` -> staging area
 
 
 
